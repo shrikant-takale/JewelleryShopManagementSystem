@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 3.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Customer" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="shrikant"/>
+	<queryString language="SQL">
+		<![CDATA[select * from customer]]>
+	</queryString>
+	<field name="SrNo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="SrNo"/>
+		<property name="com.jaspersoft.studio.field.label" value="SrNo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+	</field>
+	<field name="CustomerName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CustomerName"/>
+		<property name="com.jaspersoft.studio.field.label" value="CustomerName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+	</field>
+	<field name="CustomerAddress" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CustomerAddress"/>
+		<property name="com.jaspersoft.studio.field.label" value="CustomerAddress"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CustomerEmail" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CustomerEmail"/>
+		<property name="com.jaspersoft.studio.field.label" value="CustomerEmail"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CustomerPhno" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CustomerPhno"/>
+		<property name="com.jaspersoft.studio.field.label" value="CustomerPhno"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Date" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="Date"/>
+		<property name="com.jaspersoft.studio.field.label" value="Date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Time" class="java.sql.Time">
+		<property name="com.jaspersoft.studio.field.name" value="Time"/>
+		<property name="com.jaspersoft.studio.field.label" value="Time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="customer"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="SrNo">
+		<groupExpression><![CDATA[$F{SrNo}]]></groupExpression>
+	</group>
+	<group name="CustomerName">
+		<groupExpression><![CDATA[$F{CustomerName}]]></groupExpression>
+	</group>
+	<group name="CustomerAddress">
+		<groupExpression><![CDATA[$F{CustomerAddress}]]></groupExpression>
+	</group>
+	<group name="CustomerEmail">
+		<groupExpression><![CDATA[$F{CustomerEmail}]]></groupExpression>
+	</group>
+	<group name="CustomerPhno">
+		<groupExpression><![CDATA[$F{CustomerPhno}]]></groupExpression>
+	</group>
+	<group name="Date">
+		<groupExpression><![CDATA[$F{Date}]]></groupExpression>
+	</group>
+	<group name="Time">
+		<groupExpression><![CDATA[$F{Time}]]></groupExpression>
+	</group>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="79"/>
+	</title>
+	<pageHeader>
+		<band height="35"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61">
+			<staticText>
+				<reportElement x="0" y="0" width="110" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fa824fe0-e859-467b-882c-e40f34a3d2d9"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[SrNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="46d51eae-79cc-4b52-978a-d7fa3a1e0078"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[CustomerName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="217" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="23284560-f4ce-4690-ba72-74a32a0295fe"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[CustomerAddress]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9891130f-bc2c-4c82-a1d7-9ed2869354d1"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[CustomerEmail]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="431" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6afc9794-3f07-410d-8245-051348000b13"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[CustomerPhno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="538" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="09b5c1bd-76a3-4a77-a851-280726d4008d"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="645" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1a29f32a-6a28-4247-a9a2-75f3a5f1964d"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<text><![CDATA[Time]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="182">
+			<textField>
+				<reportElement x="0" y="0" width="110" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fa824fe0-e859-467b-882c-e40f34a3d2d9"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{SrNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="46d51eae-79cc-4b52-978a-d7fa3a1e0078"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{CustomerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="23284560-f4ce-4690-ba72-74a32a0295fe"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{CustomerAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="324" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9891130f-bc2c-4c82-a1d7-9ed2869354d1"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{CustomerEmail}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="431" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6afc9794-3f07-410d-8245-051348000b13"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{CustomerPhno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="538" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="09b5c1bd-76a3-4a77-a851-280726d4008d"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{Date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="645" y="0" width="107" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1a29f32a-6a28-4247-a9a2-75f3a5f1964d"/>
+				</reportElement>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{Time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54"/>
+	</pageFooter>
+	<summary>
+		<band height="42"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Shrikant/Desktop/mysql-connector-java/mysql-connector-java-8.0.24/mysql-connector-java-8.0.24/mysql-connector-java-8.0.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shrikant/Downloads/New folder/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shrikant/Downloads/New folder/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shrikant/Downloads/New folder/jasperreports-3.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shrikant/Downloads/New folder/poi-3.5-FINAL.jar"/>
+	<classpathentry kind="con" path="net.sf.jasperreports.JR_DEPENDENCIES_CONTAINER"/>
+	<classpathentry kind="con" path="net.sf.jasperreports.JR_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
